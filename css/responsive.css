@@ -1,0 +1,113 @@
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding: 50px 0;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .custom_nav-container .nav_search-btn {
+        background-position: center;
+    }
+
+    .service_section .card-deck {
+
+        flex-direction: column;
+
+    }
+
+    .service_section .card-deck .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .slider_img-box {
+
+        width: 85%;
+        margin: 65px auto;
+
+    }
+
+    .slider_section .custom_carousel-control {
+
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 105px;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .fruit_section .fruit_detail-box {
+
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .fruit_detail-box>div {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .contact_section {
+        background-size: 105px;
+    }
+
+    .contact_section input {
+
+        background-color: transparent;
+
+    }
+
+    .info_section .col-md-3 {
+        text-align: center;
+    }
+
+    .info_section .col-md-3:not(:nth-last-child(1)) {
+
+        margin-bottom: 35px;
+    }
+
+    .tasty_section h2 {
+
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider_item-container .slider_item-detail {
+
+        text-align: center;
+
+    }
+
+    .slider_item-container .slider_item-detail .d-flex {
+
+        justify-content: center;
+
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
